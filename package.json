@@ -1,7 +1,7 @@
 {
-  "name": "React Boilerplate",
+  "name": "RemindMe",
   "version": "1.0.0",
-  "description": "Boilerplate",
+  "description": "RemindMe",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development gulp",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peniqliotuv/react-boilerplate.git"
+    "url": "git+https://github.com/peniqliotuv/remindme.git"
   },
   "author": "jerry tsui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peniqliotuv/react-boilerplate/issues"
+    "url": "https://github.com/peniqliotuv/remindme/issues"
   },
-  "homepage": "https://github.com/peniqliotuv/react-boilerplate#readme",
+  "homepage": "https://github.com/peniqliotuv/remindme#readme",
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
@@ -38,6 +38,11 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
     "file-loader": "^0.11.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",

@@ -4,7 +4,7 @@ import App from './containers/App';
 
 render(
     <App />,
-    document.getElementById('root')
+    document.getElementById('root'),
 );
 
 if (module.hot) {
@@ -14,7 +14,7 @@ if (module.hot) {
     const NextApp = require('./containers/App').default;
     render(
         <NextApp />,
-        document.getElementById('root')
+        document.getElementById('root'),
     );
   });
 }

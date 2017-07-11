@@ -10,7 +10,7 @@ const gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     autoprefixer = require('gulp-autoprefixer');
 
-const environment = process.env.NODE_ENV;
+const environment = process.env.NODE_ENV || 'production';
 const webpackConfig = require('./webpack.config.js');
 const config = webpackConfig[environment];
 
